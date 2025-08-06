@@ -16,6 +16,9 @@
     "source": "https://github.com/LastDragon-ru/lara-asp",
     "forum": "https://github.com/LastDragon-ru/lara-asp/discussions"
   },
+  "suggest": {
+    "lastdragon-ru/graphql-printer-testing": "Useful assertions for PHPUnit to check printed/exported type/queries."
+  },
   "require": {
     "php": "^8.3|^8.4",
     "ext-mbstring": "*",
@@ -27,6 +30,7 @@
   "require-dev": {
     "composer/class-map-generator": "^1.0",
     "phpunit/phpunit": "^11.1.0|^12.0.0",
+    "lastdragon-ru/graphql-printer-testing": "self.version",
     "lastdragon-ru/lara-asp-testing": "self.version",
     "mockery/mockery": "^1.6.6"
   },
